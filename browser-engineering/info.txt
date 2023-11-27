@@ -1,0 +1,23 @@
+Html file is loaded.
+It converted to raw bytes - 
+charset can be configured - tokenisation (h1, p, html, body)
+relations
+nodes -> nodelist.
+DOM
+
+
+Similarly for CSS
+    raw - character set - token - objects - relations - model.
+    CSS OM. 
+
+once we have the html dom and the css om it starts to construct the tree.
+the browser engine takes care of how much area is available for it to paint.
+
+once the script tag is found the dom loading is temporarily stopped.
+
+(once the css dom is found the js loading is also stopped ? weird.)
+
+but many of the async loading takes care of that.
+
+
+javascript is a dynamically typed language
