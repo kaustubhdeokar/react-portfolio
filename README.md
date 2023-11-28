@@ -38,3 +38,5 @@ state can be set by
 ```
 
 React mimics the DOM and creates a virtual DOM, so that it doesn't have to reload the entire page and loads only the part which has a difference with the original DOM.
+
+Finding out the difference between two trees - reconciliation.
