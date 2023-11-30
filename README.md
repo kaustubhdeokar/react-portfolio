@@ -40,3 +40,11 @@ state can be set by
 React mimics the DOM and creates a virtual DOM, so that it doesn't have to reload the entire page and loads only the part which has a difference with the original DOM.
 
 Finding out the difference between two trees - reconciliation.
+
+
+### 4. use callback - 
+#### hook. (https://react.dev/reference/react/useCallback)
+lets you cache the function definition between re-renders
+
+### 5. use effect hook
+on change of variables (x,y,z..) method(s) (m1,m2...) can be triggered. 
